@@ -1,13 +1,14 @@
 {
-	"name": "docker_web_app",
+	"name": "SimpleAPI",
 	"version": "1.0.0",
 	"description": "Node.js on Docker",
-	"author": "First Last <first.last@example.com>",
+	"author": "Connor Wesley-Harvey connorwesleyharvey@gmail.com",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
 	},
 	"dependencies": {
-		"express": "^4.16.1"
+		"express": "^4.17.1",
+		"git-rev-sync": "^3.0.1"
 	}
 }
