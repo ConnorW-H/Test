@@ -1,7 +1,6 @@
 FROM node:12
 
 
-WORKDIR /github/test
 
 COPY package*.json ./
 
